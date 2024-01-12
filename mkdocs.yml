@@ -27,13 +27,19 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.path
     - navigation.indexes
     - navigation.footer
     - toc.follow
-    - toc.integrate
+
 plugins:
   - search
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra:
   social:
