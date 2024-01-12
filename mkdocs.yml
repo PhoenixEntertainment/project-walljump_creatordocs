@@ -1,5 +1,7 @@
-site_name: Super Skyward Towers - creator docs
+site_name: Super Skyward Towers - creator documentation
 site_url: https://docs.phoenixentertainment.games/superskywardtowers-creatordocs
+
+copyright: Copyright &copy; 2018 - 2024 Phoenix Entertainment
 
 theme:
   name: material
@@ -26,6 +28,14 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.path
-
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
 plugins:
   - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Phoenix_Devs
